@@ -121,7 +121,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: clamp(150px, 25%, 300px)
+    width: clamp(250px, 25%, 350px)
 }
 
 .main h1 {
@@ -135,7 +135,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
