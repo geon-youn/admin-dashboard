@@ -170,6 +170,11 @@ li {
     font-size: var(--sidebar-font-size);
 }
 
+li:hover {
+    font-weight: bolder;
+    font-size: calc(var(--sidebar-font-size) + 0.1rem);
+}
+
 ul {
     margin: 0;
     padding: 0;
